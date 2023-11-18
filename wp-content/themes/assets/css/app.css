@@ -6163,8 +6163,10 @@ body.op-modal-open {
   position: relative;
   margin-right: 20px;
 }
+@import url('https://fontawesome.com/');
+
 .mainmenu > .menu-item-has-children > a::after {
-  content: "\f107";
+  content: "\f107"; 
   font-family: var(--font-awesome);
   font-weight: 400;
   color: var(--color-text-dark);
@@ -6173,6 +6175,7 @@ body.op-modal-open {
   top: 0;
   right: -20px;
 }
+
 .mainmenu > .menu-item-has-children .axil-submenu {
   position: absolute;
   top: 100%;
@@ -7634,6 +7637,7 @@ blockquote p,
     margin-bottom: 50px;
   }
 }
+
 .footer-widget .widget-title {
   font-weight: 700;
 }
@@ -12293,4 +12297,6 @@ pre {
   width: 300px;
 }
 
+ /* logo */
+ 
 /*# sourceMappingURL=app.css.map */
